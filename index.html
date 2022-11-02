@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        h1 {color: steelblue; text-align: center;}
+        h2 {color: DarkSlateGray; text-align: center; text-decoration: underline;}
+        h3 {color: Teal;}
+        h4 {color: #004d4d;}
+        h5 {color: darkgreen}
+        h6 {color: darkred; text-align: center;}
+        nav {font-size: 18px;}
+        p {font-size: 18px;}
+        a {color: inherit; text-decoration: none;}
+        #clique {color: DarkSlateGray; text-align: left; text-decoration: none;}
+        #site {color: midnightblue}
+        #voltar {color: brown}
+      </style>
+
+      <title>HTML: um breve resumo</title>
+      <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/AKYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERABERERERERARARERERERAREQERERERAREREBERERARERERARERAREREREQERAREREREREBEBEREREREQEQERERERERARARERABEREBEQERARAREBEREAAREQABERERERERERERERERERERERH//wAA//8AAP5/AAD9vwAA+98AAPfvAADv9wAA3/sAAL/9AAC//QAAv/0AAL59AADduwAA48cAAP//AAD//wAA" rel="icon" type="image/x-icon" />
+  </head>
+
+  <body>
+    <h1 id="inicio">HTML: um breve resumo</h1>
+    <hr />
+
+    <h2 id="clique">Clique abaixo para navegar entre os conteúdos:</h2>
+    <nav>
+      <ul>
+        <li>
+          <a href="#conceito">HTML</a>
+        </li>
+          <li>
+            <a href="#tags">Tags HTML</a>
+          </li>
+        </ul>
+      </nav>
+
+    <section id="conceito">
+    <h2>HTML</h2>
+
+      <h3>O que é HTML?</h3>
+        <p>O <abbr title="Hypertext Markup Language">HTML</abbr> é uma <strong>linguagem de marcação</strong> que define a <strong>estrutura de elementos</strong> de uma página web. Pense no HTML como o <strong>esqueleto</strong> de uma página.</p>
+
+      <h3>HTML é uma linguagem de programação?</h3>
+        <p>Apesar de ter "linguagem" no nome, o HTML <strong>não é</strong> uma linguagem de <strong>programação</strong>. Isso porque no HTML não há tomada de decisões, não se processa dados, não utiliza variáveis e não tem condicionais! O HTML apenas marca a estrutura das páginas web.</p>
+    </section>
+
+        <h4>Saiba mais sobre HTML:</h4>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/html/default.asp" target="_blank" id="site">Site W3 Schools</a>
+            </li>
+          </ul>
+
+    <section id="tags">
+    <h2>Tags HTML</h2>
+
+      <h3>O que são tags?</h3>
+        <p>Tags são elementos usados para marcar a estrutura do documento HTML.</p>
+
+        <p>Aqui está uma definição do site da <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica" target="_blank" id="site">Alura:</a></p>
+
+        <blockquote cite="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica">
+          Os elementos HTML ou também chamados de <strong>tags HTML</strong>, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+            
+          As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.
+        </blockquote>
+
+      <h3>Quais são as tags HTML?</h3>
+        <p>Existem várias – várias mesmo! – tags HTML. Abaixo estão apenas algumas delas:</p>
+
+        <p>title: título do documento que aparece na aba do navegador <br>
+        body: informações a serem vistas pelo usuário <br>
+        main: principal conteúdo único da página <br>
+        header: cabeçalho <br>
+        footer: rodapé <br>
+        section: define uma seção; pode estar dentro de outras seções <br>
+        nav: navegação <br>
+        strong: negrito <br>
+        em: itálico <br>
+        q: citação <br>
+        abbr: abreviação <br>
+        br: quebra de linha</p>
+    </section>
+
+        <h4>Conheça outras tags HTML:</h4>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/tags/" target="_blank" id="site">Site W3 Schools</a>
+            </li>
+          </ul>
+      
+        <small><a href=#inicio><strong id="voltar">Voltar para o início &#9195</strong></a></small>
+
+          <h5>&#10133 Quer saber mais sobre HTML e tags? Deixe seu e-mail!</h5>
+            <form>
+              <label for="nome">Nome:</label>
+              <input id="nome" type="text">
+
+              <label for="email">E-mail:</label>
+              <input id="email" type="email">
+
+              <button id="botaoEnviar">Enviar!</button>
+            </form>
+            <hr />
+            <h6>Feito com &#128156 por Katiana Xavier</h6>
+  </body>
+</html>
