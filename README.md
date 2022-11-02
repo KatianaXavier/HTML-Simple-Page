@@ -1,3 +1,3 @@
 # challenge-html 💪🏼
 
-Página desenvolvida durante meus estudos pela plataforma DIO. 📙
+Página HTML desenvolvida durante meus estudos pela plataforma DIO. 📙
